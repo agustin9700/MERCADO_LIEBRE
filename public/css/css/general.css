@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&family=Roboto:wght@100;300&display=swap');
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+
+
+
+
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+  }
+  
+  *{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+.titulares{
+  font-size: 24px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+
