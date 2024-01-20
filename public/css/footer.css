@@ -1,0 +1,21 @@
+footer{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.descripciones{
+    text-align: center;
+  }
+  .descripciones li p{
+    font-size: 16px;
+    color: var(--gris-oscuro);
+    
+  }
+  .descripciones li{
+    margin-bottom: 60px;
+  }
+  .descripciones i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--celeste);
+  }
+  

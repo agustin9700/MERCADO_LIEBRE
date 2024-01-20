@@ -1,0 +1,33 @@
+header{
+    background-color: var(--amarillo);
+    padding-bottom: 20px;
+}
+
+header .search-bar{
+    padding: 10px 20px;
+}
+header .search-bar h3{
+    text-align: center;
+}
+
+
+
+header nav ul i{
+    padding-left: 2px;
+}
+
+.burger-menu{
+    text-align: center;
+    width: 20px;
+    background-color: var(--celeste);
+    margin: auto;
+    padding: 7px 9px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.burger-menu .fas {
+        color: white;
+        font-size: 18px;
+
+}
+

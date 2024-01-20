@@ -1,0 +1,24 @@
+
+
+main{
+  background-color: var(--gris-claro);
+  padding-bottom: 10px;
+}
+
+  .detalle p:nth-child(3){
+    font-size: 18px;
+  } 
+  .detalle p:nth-child(4){
+    font-size: 16px;
+  }
+
+  main section{
+    margin: 0 10px;
+    
+  }
+  main section .detalle{
+    background-color: white;
+  }
+  main section .detalle p{
+    padding-left: 10px;
+  }
