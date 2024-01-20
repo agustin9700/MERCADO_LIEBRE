@@ -20,6 +20,7 @@
     font-size: 14px;
     color: black;
     font-weight: bold;
+    box-sizing: border-box;
   }
 
 body{

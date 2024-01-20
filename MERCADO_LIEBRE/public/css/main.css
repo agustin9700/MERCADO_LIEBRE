@@ -1,0 +1,45 @@
+
+
+main{
+  background-color: var(--gris-claro);
+  padding-bottom: 10px;
+ /* width: 90%;*/
+  margin: auto;
+}
+.detalle p:nth-child(2){
+  
+  border-top: 1px solid #ebebeb;
+  padding-top: 10px;
+}
+
+  .detalle p:nth-child(3){
+    font-size: 18px;
+    color: #2bbc43;
+    
+  } 
+  .detalle p:nth-child(4){
+    font-size: 16px;
+  }
+
+  main section{
+    margin: 0 10px;
+    
+  }
+  main section .detalle{
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 10px;
+    
+  }
+  main section .detalle p,h4{
+    padding-left: 10px;
+    margin: 0;
+  }
+  main section .detalle h4{
+    margin-top: 15px;
+  }
+
+
+
+ 
