@@ -4,10 +4,30 @@ header{
 }
 
 header .search-bar{
-    padding: 10px 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.search-bar .container-logo{
+    width: 50%;
+    margin: 0;
+}
+.search-bar .container-logo img{
+    width: 100%;
+}
+.search-bar .barra{
+    width: 50%;
+    padding-left: 7px;
+    
 }
 header .search-bar h3{
     text-align: center;
+    font-size: 13px;
+    margin-top: 0;
+    padding: 20px 0 15px 10px;
+    width: 100vw;
+
 }
 
 
@@ -34,29 +54,30 @@ header nav{
     display: none;
 }
 
-/* Estilos para tablets*/
-@media screen and (min-width: 361px) {
-    main section .detalle{
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);}
-      header nav{
-        display: block;
-    }
-    .burger-menu{
-        display: none;
-    }
+header .menu-nav .menu-links, .menu-login{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-links li, .menu-login li{
+    list-style: none;
+}
+.menu-links li a, .menu-login li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container-banner img{
+    width: 100%;
+}
+
+
+
+
+
+
 
     
-  }
+
   
-  /* Estilos para desktop*/
-  @media screen and (min-width: 769px) {
-    main section .detalle{
-      box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    header nav{
-        display: block;
-    }
-    .burger-menu{
-        display: none;
-    }
-  }
