@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="../public/css/general.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="search-bar">
+            <figure class="container-logo"><img src="../public/images/logo-mercado-liebre.svg" alt=""></figure>
+            <form action="#" method="GET" class="mb-3-m-0 barra">
+                <input type="text" placeholder="Buscar productos, marcas" name="search" class="form-control">
+                <!-- <button type="submit">Buscar</button> -->
+            </form>
+            <h3><i class="fa-solid fa-hand-holding-dollar icono"></i>Compra en cuotas y sin tarjeta de crédito</h3>
+        </div>
+
+
+
+        <nav class="menu-nav">
+            <ul class="menu-links
+            ">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="menu-login">
+                <li><a href="./registro">Create tu cuenta</a><i class="fa-solid fa-id-card"></i></li>
+                <li><a href="./login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <div class=" container-form  ">
+        <form action="/registro" method="POST" class="row mx-auto ">
+            <div class="col-sm-12 col-md-6 mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input class="form-control " type="text" id="nombre" name="nombre" placeholder="Ingresar su nombre"
+                    value="" required pattern="[a-zA-Z]+" title="Ingresa solo letras">
+
+            </div>
+            <div class="col-sm-12 col-md-6 mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingresar su apellido"
+                    value="">
+            </div>
+            <div class="col-sm-12 col-md-6 mb-3">
+                <label for="nameUser" class="form-label">Nombre de Usuario</label>
+                <input class="form-control" type="text" id="nameUser" name="nameUser" placeholder="Nombre de Usuario"
+                    value="">
+            </div>
+            <div class="col-sm-12 col-md-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="Ingresar su Email"
+                    value="">
+            </div>
+            <div class="col-sm-12 col-md-4 mb-3">
+                <label for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
+                <input class="form-control" type="date" id="fechaNacimiento" name="fechaNacimiento" value="">
+            </div>
+
+            <div class="col-sm-12 col-md-4 mb-3">
+                <label for="calle" class="form-label">Dirección</label>
+                <input class="form-control" type="text" id="calle" name="calle" placeholder="Calle" value="">
+            </div>
+
+            <div class="col-sm-12 col-md-4 mb-3">
+                <label for="callenumero" class="form-label">Altura</label>
+                <input class="form-control" type="text" id="callenumero" name="callenumero" placeholder="Número"
+                    value="" required pattern="[0-9]+" title="Ingresa solo numeros">
+            </div>
+
+
+            <div class="col-12 mb-3">
+                <label class="mb-3">Perfil Usuario</label>
+                <br>
+                <div class="form-check form-check-inline ">
+                    <input class="form-check-input" type="radio" id="comprar" name="perfil" value="comprar">
+                    <label for="perfilUser" class="form-label">Comprar</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" id="vender" name="perfil" value="vender">
+                    <label for="perfilUser" class="form-label">Vender</label>
+                </div>
+            </div>
+
+
+
+            <div class="mb-3">
+                <label class="form-label">Categorías de interés (puede elegir más de una):</label>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="interes" value="electro"> Electro
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="interes" value="moda"> Moda
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="interes" value="hogar"> Hogar
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="interes" value="juguetes"> Juguetería
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="interes" value="vida_sana"> Vida sana
+                    </label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="fotoUser" class="form-label">Foto de usuario</label>
+                <input class="form-control" type="file" id="fotoUser" name="fotoUser">
+            </div>
+            
+            <div class="col-sm-12 col-md-6 mb-5">
+                <label for="contrasena" class="form-label">Contraseña:</label>
+                <input class="form-control" type="password" id="contrasena" name="contrasena" required>
+            </div>
+
+            <div class="col-sm-12 col-md-6 mb-5">
+                <label for="confirmarContrasena" class="form-label">Confirmar contraseña:</label>
+                <input class="form-control" type="password" id="confirmarContrasena" name="confirmarContrasena"
+                    required>
+            </div>
+            <div class="col mb-3">
+                <a href="./"><button type="submit" class="btn btn-success">Enviar</button></a>
+                <button type="reset" class="btn btn-danger">Borrar</button>
+
+            </div>
+
+
+
+        </form>
+    </div>
+
+    <footer>
+        <ul class="descripciones">
+            <li>
+                <i class="fa-solid fa-credit-card"></i>
+                <h4 class="titulares">Pagá con tarjeta o en efectivo</h4>
+                <p>
+                    Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+                    efectivo en puntos de pago. ¡Y siempre es seguro!
+                </p>
+            </li>
+            <li>
+                <i class="fa-solid fa-gift"></i>
+                <h4 class="titulares">Envío gratis desde $ 2.500</h4>
+                <p>
+                    Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+                    miles de productos. Es un beneficio de Mercado Puntos.
+                </p>
+            </li>
+            <li>
+                <i class="fa-solid fa-user-shield"></i>
+                <h4 class="titulares">Seguridad, de principio a fin</h4>
+                <p>
+                    ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+                    puedas hacer, porque estás siempre protegid@.
+                </p>
+            </li>
+            <li>Copyright © 1999-2020 MercadoLiebre S.R.L.</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
