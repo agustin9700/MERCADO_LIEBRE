@@ -3,6 +3,7 @@
 @import url(main.css);
 @import url(footer.css);
 @import url(register.css);
+@import url(login.css);
 
 
 
@@ -61,8 +62,12 @@ body{
 
       
   main section  .container-articulos .detalle{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
   width: 49%;
+  }
+
+  main section .container-articulos .detalle:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
   
@@ -95,7 +100,7 @@ body{
     width: 33%;
     font-size: 18px;
   }
-  main section .detalle{
+  main section .container-articulos .detalle:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   header nav{
@@ -113,6 +118,12 @@ body{
       
      
   }
+  .descripciones {
+    text-align: center;
+    display: flex; 
+    padding: 0;
+  }
+
   .container-form {
     width: 50%;
     margin: 25px auto;

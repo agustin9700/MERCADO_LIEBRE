@@ -20,6 +20,10 @@ main{
   display: flex;
 }
 
+main section .container-articulos .detalle:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
   .detalle .precio-oferta p:nth-child(1){
     font-size: 18px;
     
@@ -79,12 +83,18 @@ section .detalle .container-truck i{
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: all 400ms;
+    }
+
+    section .detalle .container-truck i:hover{
+      rotate: -90deg;
     }
 
 section .detalle .container-truck .fa-truck{
   color: #39b54a;
 
 }
+
 
 
 
